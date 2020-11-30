@@ -9,4 +9,4 @@ Lessons:
     3. Attribute Binding
     4. Conditional Rendering
     5. List Rendering
-   
+    6. Event Handling
