@@ -12,3 +12,4 @@ Lessons:
     6. Event Handling
     7. Class & Style Binding
     8. Computed Properties
+    9. Components & Props
