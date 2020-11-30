@@ -10,3 +10,4 @@ Lessons:
     4. Conditional Rendering
     5. List Rendering
     6. Event Handling
+    7. Class & Style Binding
