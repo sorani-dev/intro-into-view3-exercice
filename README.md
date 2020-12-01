@@ -14,3 +14,4 @@ Lessons:
     8. Computed Properties
     9. Components & Props
     10. Communicating Events
+    11. Forms & v-model
