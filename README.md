@@ -13,3 +13,4 @@ Lessons:
     7. Class & Style Binding
     8. Computed Properties
     9. Components & Props
+    10. Communicating Events
