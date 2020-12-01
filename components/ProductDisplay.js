@@ -23,7 +23,7 @@ app.component('product-display', {
             <product-details :details="details"></product-details>
             <div class="color-circle" v-for="(variant, index) in variants" :key="variant.id" @mouseover="updateVariant(index)" :style="{ backgroundColor: variant.color }"></div>
             <button class="button" :class="{ disabledButton: !inStock }" :disabled="!inStock" v-on:click="addToCart">Add to Cart</button> <br/>       
-            <button class="button" :class="{}"  @click="removeFromCart">Remove item</button>
+            <button class="button"  :class="{ disabledButton: !inStock }" :disabled="!inStock"   @click="removeFromCart">Remove item</button>
           </div>
         </div>
         <review-list v-if="reviews.length" :reviews="reviews"></review-list>
